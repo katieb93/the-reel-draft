@@ -18,8 +18,8 @@
     align-items: center;
 }
 
-.message-pop {
-    z-index: 9999;
+.message-pop{
+    z-index: 9999!important;
 }
 
 .score-load-container {
@@ -461,5 +461,5 @@
     color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     text-align: center;
-    z-index: 8000; 
+    z-index: 9999; 
 }
