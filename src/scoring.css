@@ -22,7 +22,7 @@
     top: 100px;
     /* border: 5px solid black; */
     /* background-color: #FFF2E9; */
-    z-index: 9999;
+    z-index: 8000;
     width: 990px;
     height: 550px;
     position: relative;
@@ -121,7 +121,7 @@
     transform: translate(-50%, -50%);
     width: 800px; /* Adjust the width of the holder */
     /* height: 600px;  */
-    z-index: 9999;
+    z-index: 8000;
     display: flex; /* Set the display property to flex */
     border: 5px solid black;
     background-color: #FFF2E9;
@@ -232,6 +232,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    z-index: 9999; 
+
 }
 
 /**/
@@ -457,5 +459,5 @@
     color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     text-align: center;
-    z-index: 9999; 
+    z-index: 8000; 
 }
