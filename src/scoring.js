@@ -381,7 +381,7 @@
                 </>
                 {showPopup && (
                         <div className="score-pop">
-                            <p className='message'>Copied to keyboard</p>
+                            <p className='message message-pop'>Copied to keyboard</p>
                         </div>
                 )}
                 <div className={`copied-holder ${isVisible ? 'visible' : ''}`} style={{ display: isVisible ? 'flex' : 'none' }}>
