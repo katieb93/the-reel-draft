@@ -341,7 +341,7 @@
 .copied-table .genre-column {
     font-weight: bold;
     text-align: right;
-    font-size: 12px;
+    font-size: 11px;
     background-color: black;
     color: #FFF2E9;
     border-right: 5px solid #FFF2E9; /* Add right border */
