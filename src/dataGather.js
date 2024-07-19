@@ -8,7 +8,9 @@ import PlayerNames from './playerNames';
 const FormDataContext = createContext();
 
 function DataGather() {
+    
     const navigate = useNavigate(); 
+
     const [formData, setFormData] = useState(null);
     const [formSubmitted, setFormSubmitted] = useState(false);
 

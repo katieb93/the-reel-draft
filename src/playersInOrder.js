@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './playersInOrder.css';
 
-const playerColors = ['#1D98BA', '#F2A815', '#FF562F', '#60851C', '#FFC1C6', '#F78D37', '#B6ABE3', '#65CBD0', '#FED070', '#ACCE82']; // Sample colors
+const playerColors = ['#1D98BA', '#F2A815', '#FF562F', '#60851C', '#FFC1C6', '#F78D37', '#B6ABE3', '#65CBD0', '#FED070', '#ACCE82']; 
 
 function shuffleArray(array) {
     // Using Fisher-Yates shuffle algorithm
@@ -21,6 +21,7 @@ function getOrdinalNumber(number) {
 
 function PlayersInOrder() {
     const location = useLocation();
+    
     const gameData = location.state.formData;
     const year = gameData.formData.year;
     const players = gameData.formData.players;

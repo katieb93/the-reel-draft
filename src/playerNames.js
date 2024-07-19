@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 
 function PlayerNames({ formData, onSubmit }) {
+
   const [formState, setFormState] = useState({
     formData: formData,
     playerNames: Array(parseInt(formData.players)).fill('')
   });
+  
   const [showEmptyNamePopup, setShowEmptyNamePopup] = useState(false);
   const [showDuplicateNamePopup, setShowDuplicateNamePopup] = useState(false);
 

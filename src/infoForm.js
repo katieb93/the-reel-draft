@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 
 function PlayersData({ onSubmit }) {
+    
     const [formData, setFormData] = useState({ 
         year: '', 
         players: '' 
     });
+
     const [showPopup, setShowPopup] = useState(false);
 
     const handleChange = (event) => {
