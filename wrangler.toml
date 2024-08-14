@@ -1,0 +1,9 @@
+name = "reel-draft-site"
+type = "javascript" # or "webpack" if you're using Webpack
+account_id = "2bed1d63678f28ca301a67d66b7b6ffb"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+route = "thereeldraft.com/*"
