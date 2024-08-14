@@ -1,9 +1,11 @@
 name = "reel-draft-site"
-type = "javascript" # or "webpack" if you're using Webpack
+type = "javascript"  # Set this to "webpack" if using Webpack, otherwise leave as "javascript"
 account_id = "2bed1d63678f28ca301a67d66b7b6ffb"
-workers_dev = true
-route = ""
-zone_id = ""
+pages_build_output_dir = "build"  # This specifies where the build output is located
+
+workers_dev = true  # Indicates you're using Workers Dev environment
+route = ""  # This can be left blank if using Workers Dev, otherwise specify the route
 
 [env.production]
-route = "thereeldraft.com/*"
+route = "https://thereeldraft.com/*"  # Ensure this is the full route with https:// if applicable
+zone_id = "4befbd75978e557ad78a1d8aa7242cfd"  # Your zone ID for the production environment
