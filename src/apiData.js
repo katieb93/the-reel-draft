@@ -7,7 +7,10 @@ import axios from 'axios';
 
 const ApiData = async (year, genreIds) => {
     const API_ENDPOINT = "https://api.themoviedb.org/3/discover/movie";
-    const API_KEY = process.env.REACT_APP_TMDB_API_KEY; // Fetching from environment variables
+    // const API_KEY = process.env.REACT_APP_TMDB_API_KEY; // Fetching from environment variables
+    const API_KEY = REACT_APP_TMDB_API_KEY; // Fetching from environment variables
+    // Fetching from environment variables
+
 
     const totalPages = 20; // Total number of pages to fetch
     const blockbusterLimit = 20; // Limit for blockbuster movies
