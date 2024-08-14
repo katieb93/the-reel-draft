@@ -54,7 +54,7 @@ function GameOptions() {
                         </button>
                         <p className='descrip-go'>Start immediately</p>
                         <hr className='small-divider' />
-                        <p className='descrip-go'>No account required!</p>
+                        <p className='descrip-go'>No account needed!</p>
                     </div>
                     <div className='legacy-draft draft-go'>
                         <button
