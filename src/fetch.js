@@ -1,5 +1,8 @@
 import axios from 'axios';
 
+// const axios = require('axios');
+
+
 const assignRanks = (movies) => {
     const rankByCriterion = (criterion, rankProperty) => {
         movies.sort((a, b) => b[criterion] - a[criterion]);

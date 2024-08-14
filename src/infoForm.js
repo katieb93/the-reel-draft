@@ -29,7 +29,7 @@ function PlayersData({ onSubmit }) {
 
     return (
         <div className='info-form-form'>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='form-time'>
                 {/* Popup for generic message */}
                 {showPopup && (
                 <div className="popup showPopup">

@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 
 const Home = () => {
+    
     const handlePlayClick = () => {
     };
 
@@ -18,7 +19,9 @@ const Home = () => {
                 </div>
             </div>
             <div className="container">
-                <a href="dataGather" className="circle-button" onClick={handlePlayClick}>
+                {/* <a href="dataGather" className="circle-button" onClick={handlePlayClick}> */}
+                <a href="gameOptions" className="circle-button" onClick={handlePlayClick}>
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="138" height="138" viewBox="0 0 138 138" fill="none">
                         <circle cx="68.5714" cy="68.5714" r="63.5714" />
                     </svg>

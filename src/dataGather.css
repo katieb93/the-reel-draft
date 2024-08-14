@@ -23,7 +23,25 @@
     width: 100%;
 }
 
-form {
+/* form {
+    position: relative;
+    width: 100%;
+    border: 10px solid var(--Pink, #FFC1C6);
+    background: var(--Dark-Orange, #FF562F);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: "Roboto Condensed", sans-serif; 
+    font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+} */
+
+.form-time {
     position: relative;
     width: 100%;
     border: 10px solid var(--Pink, #FFC1C6);
