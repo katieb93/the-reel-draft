@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { supabase } from './supabaseClient'; // Adjust the path based on your project structure
+import { supabase } from './supabaseClient.js'; // Adjust the path based on your project structure
 import { useNavigate } from 'react-router-dom';
 
 import './authComponent.css';

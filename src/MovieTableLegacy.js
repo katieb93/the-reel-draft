@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { supabase } from './supabaseClient'; // Adjust the path based on your project structure
+import { supabase } from './supabaseClient.js'; // Adjust the path based on your project structure
 
 const fetchGameSession = async (setGameId, setError) => {
   try {

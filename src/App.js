@@ -1,34 +1,33 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './home';
-import DataGather from './dataGather';
-import PlayersInOrder from './playersInOrder';
+import Home from './home.js';
+import DataGather from './dataGather.js';
+import PlayersInOrder from './playersInOrder.js';
 
-import PlayersInOrderLegacy from './playersInOrderLegacy';
+import PlayersInOrderLegacy from './playersInOrderLegacy.js';
 
-import ListOfMovies from './getListofMovies';
-import ListOfMoviesLegacy from './getListofMoviesLegacy';
+import ListOfMovies from './getListofMovies.js';
+import ListOfMoviesLegacy from './getListofMoviesLegacy.js';
 
-import GameOptions from './gameOptions';
-import NavBar from './navBar';
-import FooterNavBar from './footer';
-import AuthComponentLegacy from './authComponentLegacy';
+import GameOptions from './gameOptions.js';
+import NavBar from './navBar.js';
+import FooterNavBar from './footer.js';
+import AuthComponentLegacy from './authComponentLegacy.js';
 
-import Account from './Account'; // Import the Account component
 
 
 // import LegacyGameStart from './legacyGameStart';
 // import EnterGameCode from './EnterGameCode';
 
 
-import Scoring from './scoring';
-import ScoringLegacy from './scoringLegacy';
+import Scoring from './scoring.js';
+import ScoringLegacy from './scoringLegacy.js';
 
 import './App.css'; // Import CSS file for global styles
 import 'animate.css/animate.min.css'; // Import Animate.css
-import DataGatherLegacy from './dataGatherLegacy';
+import DataGatherLegacy from './dataGatherLegacy.js';
 
-import SavedScoresLegacy from './SavedScoresLegacy';
+import SavedScoresLegacy from './SavedScoresLegacy.js';
 
 function App() {
   return (
@@ -55,7 +54,6 @@ function App() {
 
           <Route path="/SavedScoresLegacy" element={<SavedScoresLegacy />} />
 
-          <Route path="/account" element={<Account />} /> {/* Add the Account route */}
 
 
           <Route path="/scoring" element={<Scoring />} />

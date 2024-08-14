@@ -1,39 +1,3 @@
-// import React from 'react';
-// import { useLocation, useNavigate } from 'react-router-dom';
-// import './legacyGameStart.css';
-
-// function LegacyGameStart() {
-//     const navigate = useNavigate();
-//     const location = useLocation();
-//     const { user, gameId } = location.state || {};
-//     // const userEmail = user?.email || 'No user email';
-
-//     const handleNavigation = (event, destination) => {
-//         event.preventDefault();
-//         navigate(destination);
-//     };
-
-//     return (
-//         <div className='go-container-l'>
-//             <div className='info-form-form-l'>
-//                 <div className='go-container-text'>
-//                     <p className='game-id'>Share this code with all players to let them join the game!</p>
-//                     <p className='game-id game-id-b'>Game ID: {gameId}</p>
-//                 </div>
-//                 <button
-//                     className="confirm-button-l"
-//                     type="button"
-//                     onClick={(event) => handleNavigation(event, '/dataGather')}
-//                 >
-//                     quick draft
-//                 </button>
-//             </div>
-
-//         </div>
-//     );
-// }
-
-// export default LegacyGameStart;
 
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';

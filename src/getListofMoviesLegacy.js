@@ -1,13 +1,13 @@
 // /Users/katiebrown/reel-draft-site/src/getListofMoviesLegacy.js
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import ApiData from './apiData';
-import PlayerBoardLegacy from './playerBoardLegacy';
+import ApiData from './apiData.js';
+import PlayerBoardLegacy from './playerBoardLegacy.js';
 import './listOfMovies.css';
 import { toWords } from 'number-to-words';
-import VideoPlayer from './video';
-import useFetchMovies from './fetchMovies';
-import useGenreIds from './useGenreIds'; // Path to the custom hook
+import VideoPlayer from './video.js';
+import useFetchMovies from './fetchMovies.js';
+import useGenreIds from './useGenreIds.js'; // Path to the custom hook
 
 const genreData = {
     'Drama': ['drama'],

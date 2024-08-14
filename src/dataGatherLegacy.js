@@ -1,9 +1,9 @@
 import React, { useState, createContext, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './dataGather.css';
-import PlayersData from './infoForm';
-import PlayerNames from './playerNames';
-import { supabase } from './supabaseClient';
+import PlayersData from './infoForm.js';
+import PlayerNames from './playerNames.js';
+import { supabase } from './supabaseClient.js';
 
 // Create a context to store the form data
 const FormDataContext = createContext();

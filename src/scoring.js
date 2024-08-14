@@ -6,10 +6,10 @@
     import 'animate.css';
     import domtoimage from 'dom-to-image-more';
     import reelLogo from './blackReelLogo.svg';
-    import MovieTable from './MovieTable';
+    import MovieTable from './MovieTable.js';
     // import { getRandomQuote } from './quotesList';
     import colorGif from './colorGif.gif'; // Import the GIF file
-    import useGenreIds from './useGenreIds'; // Path to the custom hook
+    import useGenreIds from './useGenreIds.js'; // Path to the custom hook
     
     const Scoring = () => {
     
