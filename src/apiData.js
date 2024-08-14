@@ -8,7 +8,9 @@ import axios from 'axios';
 const ApiData = async (year, genreIds) => {
     const API_ENDPOINT = "https://api.themoviedb.org/3/discover/movie";
     // const API_KEY = process.env.REACT_APP_TMDB_API_KEY; // Fetching from environment variables
-    const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
+    // const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
+    const API_KEY = '8ebcb38ebf496b8f2ea65f1d40174e1d';
+
     // Fetching from environment variables
 
 

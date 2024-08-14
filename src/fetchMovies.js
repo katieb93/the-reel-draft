@@ -11,7 +11,9 @@ const useFetchMovies = (year, genreIds) => {
 
     // const API_KEY = process.env.REACT_APP_API_KEY;
 
-    const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
+    // const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
+
+    const API_KEY = '8ebcb38ebf496b8f2ea65f1d40174e1d';
 
 
 
